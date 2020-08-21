@@ -1,0 +1,22 @@
+{
+  "name": "js_constuctor",
+  "version": "1.0.0",
+  "description": "pure javascript site constuctor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "serve": "webpack-dev-server --mode development --open"
+  },
+  "author": "Sergey Kondratev <sergeykondr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
